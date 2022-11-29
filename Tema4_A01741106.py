@@ -3,7 +3,7 @@ import numpy as np
 import pandas as pd
 import datetime
 
-DATA_URL = 'uber-raw-data-sep14.csv'
+DATA_URL = 'https://s3-us-west-2.amazonaws.com/streamlit-demo-data/uber-raw-data-sep14.csv.gz'
 DATE_COLUMN = 'Date/Time'
 
 st.title('TEMA 4: Visualización de Mapas - Viajes de Uber en NY')
